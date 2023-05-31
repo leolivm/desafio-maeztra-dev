@@ -1,0 +1,4 @@
+.products :global(.slick-list) {
+  min-height: 580px;
+  height: 100%;
+}

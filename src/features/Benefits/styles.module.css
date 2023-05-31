@@ -1,0 +1,7 @@
+.customSlick :global(.slick-slide) {
+  margin-right: 16px;
+}
+
+.customSlick :global(.slick-list) {
+  height: 120px;
+}

@@ -1,0 +1,56 @@
+.customDots {
+  position: absolute;
+  bottom: 30px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.customDots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.customDots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+}
+
+.customDots li button:before {
+  font-family: 'slick';
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 0.25;
+  color: #faa500 !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 950px) {
+  .customDots {
+    bottom: 10px;
+  }
+}
